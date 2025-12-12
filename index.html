@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tank Battle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Menu -->
+    <div id="main-menu" class="screen">
+        <h1>Tank Warfare</h1>
+        <div class="menu-container">
+            <div class="menu-section">
+                <button id="start-game-btn" class="menu-btn">Start Game</button>
+            </div>
+            
+            <div class="menu-section">
+                <button id="records-btn" class="menu-btn">Records</button>
+                <button id="leaderboard-btn" class="menu-btn">Leaderboard</button>
+                <button id="options-btn" class="menu-btn">Options</button>
+                <button id="exit-btn" class="menu-btn">Exit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Size Selection Screen -->
+    <div id="size-selection-screen" class="screen hidden">
+        <h1>Select Battlefield Size</h1>
+        <div class="size-options">
+            <div class="size-option" data-size="small">
+                <div class="size-illustration small">
+                    <div class="battlefield-box"></div>
+                </div>
+                <p class="size-description">Small Area (800x500) - Fast-paced combat</p>
+            </div>
+            <div class="size-option" data-size="medium">
+                <div class="size-illustration medium">
+                    <div class="battlefield-box"></div>
+                </div>
+                <p class="size-description">Medium Area (1000x600) - Balanced gameplay</p>
+            </div>
+            <div class="size-option" data-size="large">
+                <div class="size-illustration large">
+                    <div class="battlefield-box"></div>
+                </div>
+                <p class="size-description">Large Area (1200x700) - Strategic warfare</p>
+            </div>
+        </div>
+        <button id="back-from-size" class="back-btn">Back to Menu</button>
+    </div>
+
+    <!-- Options Screen -->
+    <div id="options-screen" class="screen hidden">
+        <h1>Options</h1>
+        <div class="options-container">
+            <div class="option-group">
+                <h3>Display Mode</h3>
+                <div class="radio-options">
+                    <label class="radio-option">
+                        <input type="radio" name="display-mode" value="windowed" checked>
+                        <span class="radio-custom"></span>
+                        Windowed
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="display-mode" value="fullscreen">
+                        <span class="radio-custom"></span>
+                        Full Screen
+                    </label>
+                </div>
+            </div>
+        </div>
+        <button id="back-from-options" class="back-btn">Back to Menu</button>
+    </div>
+
+    <!-- Records Screen -->
+    <div id="records-screen" class="screen hidden">
+        <h1>Recent Games</h1>
+        <div id="records-list" class="records-container">
+            <div class="loading">Loading records...</div>
+        </div>
+        <button id="back-from-records" class="back-btn">Back to Menu</button>
+    </div>
+
+    <!-- Leaderboard Screen -->
+    <div id="leaderboard-screen" class="screen hidden">
+        <h1>Leaderboard</h1>
+        <div id="leaderboard-list" class="leaderboard-container">
+            <div class="loading">Loading leaderboard...</div>
+        </div>
+        <button id="back-from-leaderboard" class="back-btn">Back to Menu</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen hidden">
+        <div class="game-container">
+            <button id="exit-game-btn" class="exit-game-btn">✕</button>
+            <div class="scoreboard">
+                <div class="score player1-score">0</div>
+                <div class="score-separator">:</div>
+                <div class="score player2-score">0</div>
+            </div>
+            <div class="game-ui">
+                <div class="player-info">
+                    <div class="player player1">
+                        <div class="player-label">PLAYER 1</div>
+                        <div class="ammo">
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                        </div>
+                        <div class="powerup-indicator hidden" id="player1-powerup"></div>
+                        <div class="reload-indicator hidden">RELOADING...</div>
+                    </div>
+                    <div class="player player2">
+                        <div class="player-label">PLAYER 2</div>
+                        <div class="ammo">
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                            <span class="bullet">•</span>
+                        </div>
+                        <div class="powerup-indicator hidden" id="player2-powerup"></div>
+                        <div class="reload-indicator hidden">RELOADING...</div>
+                    </div>
+                </div>
+            </div>
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </div>
+
+    <!-- Game Over Screen -->
+    <div id="game-over-screen" class="screen hidden">
+        <h1 id="game-result">Game Over</h1>
+        <p id="winner-message"></p>
+        <button id="play-again-btn" class="menu-btn">Play Again</button>
+        <button id="back-to-menu-btn" class="back-btn">Back to Menu</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
