@@ -87,9 +87,10 @@ Start a match on the main menu and begin playing!
 1. Andy Louriz Garcia - https://drive.google.com/file/d/1UkfV64sTTS7Zt-YULZ87b6QmU0BrGRPz/view?usp=drivesdk
 2. Ian Rosapapan -
 3. Nina Ysabel Pacho - https://drive.google.com/file/d/1Q68Qn1sHZb2zFDRyhJC-qBHiNV4GUKSN/view?usp=sharing
-4. Gerald Abayon -
+4. Gerald Abayon - https://drive.google.com/file/d/1X1obEtUKR8ZHrbJbBLBbtfm2HJhxECPw/view?usp=drive_link
 5. Aj Bryan Makiling - https://drive.google.com/file/d/1NVCzvQw3wvtYxiL7LzkMMow9kLZoXxYb/view?usp=drivesdk
 6. John Vincent Mendoza - https://drive.google.com/drive/folders/1VmANxaJzsl2Ih3wLc8eM5pw857RClWnW?usp=sharing
 
 ----- Online Deployment-----
 Link: http://tankwarfare.mygamesonline.org/
+
