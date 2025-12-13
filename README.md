@@ -85,7 +85,7 @@ Start a match on the main menu and begin playing!
 -----INDIVIDUAL VIDEO DEMONSTRATION-----
 
 1. Andy Louriz Garcia - https://drive.google.com/file/d/1UkfV64sTTS7Zt-YULZ87b6QmU0BrGRPz/view?usp=drivesdk
-2. Ian Rosapapan -
+2. Ian Rosapapan - https://drive.google.com/file/d/1oUhS77IIMbXqTzYtj6YCkbfLW6omx4V9/view
 3. Nina Ysabel Pacho - https://drive.google.com/file/d/1Q68Qn1sHZb2zFDRyhJC-qBHiNV4GUKSN/view?usp=sharing
 4. Gerald Abayon - https://drive.google.com/file/d/1X1obEtUKR8ZHrbJbBLBbtfm2HJhxECPw/view?usp=drive_link
 5. Aj Bryan Makiling - https://drive.google.com/file/d/1NVCzvQw3wvtYxiL7LzkMMow9kLZoXxYb/view?usp=drivesdk
@@ -93,4 +93,5 @@ Start a match on the main menu and begin playing!
 
 ----- Online Deployment-----
 Link: http://tankwarfare.mygamesonline.org/
+
 
